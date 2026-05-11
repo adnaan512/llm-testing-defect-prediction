@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If you use or reference this work, please cite it as below."
+type: software
+title: "AI-Driven Software Quality Assurance  Research Portfolio"
+abstract: >
+  Three interconnected Python tools applying AI and Large Language Models
+  to software quality assurance: (1) LLM-based automated unit test generation
+  using structured prompt engineering (BVA/EP/FBT), (2) software defect
+  prediction via MLP, CNN, and self-attention models trained on CK metrics,
+  and (3) automated API fault localization using Tarantula, Ochiai, and an
+  ML ensemble over test execution traces.
+authors:
+  - family-names: Hassnain
+    given-names: Adnan
+    affiliation: "NUST Pakistan, BS Computer Science"
+repository-code: "https://github.com/adnaan512/llm-testing-defect-prediction"
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-20"
+keywords:
+  - "large language models"
+  - "automated test generation"
+  - "software defect prediction"
+  - "fault localization"
+  - "software quality assurance"
+  - "AI for software engineering"
+  - "Tarantula"
+  - "Ochiai"
+  - "CK metrics"
+  - "pytest"
+references:
+  - type: article
+    title: "Automated software artifact generation using large language models"
+    authors:
+      - family-names: Huang
+        given-names: Chin-Yu
+    year: 2024
+    journal: "QRS 2024"
+  - type: article
+    title: "Empirical evaluation of the Tarantula automatic fault-localization technique"
+    authors:
+      - family-names: Jones
+        given-names: James A.
+      - family-names: Harrold
+        given-names: Mary Jean
+    year: 2005
+    journal: "ASE 2005"
+  - type: article
+    title: "On the accuracy of spectrum-based fault localization"
+    authors:
+      - family-names: Abreu
+        given-names: Rui
+    year: 2007
+    journal: "TAIC PART 2007"
+  - type: article
+    title: "Data mining static code attributes to learn defect predictors"
+    authors:
+      - family-names: Menzies
+        given-names: Tim
+    year: 2007
+    journal: "IEEE Transactions on Software Engineering"
