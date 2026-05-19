@@ -1,0 +1,7 @@
+# Core dependencies
+requests>=2.31.0
+
+# Test execution
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-json-report>=1.5.0
