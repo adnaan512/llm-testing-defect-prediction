@@ -1,0 +1,45 @@
+{
+  "dataset": {
+    "total_modules": 600,
+    "defect_rate_pct": 23.7,
+    "evaluation_strategy": "5-fold stratified CV"
+  },
+  "results": {
+    "MLP Baseline": {
+      "accuracy": 89.16,
+      "precision": 82.62,
+      "recall_pd": 71.04,
+      "f1_score": 75.88,
+      "pf_false_alarm": 5.23,
+      "auc_roc": 90.64
+    },
+    "CNN Predictor": {
+      "accuracy": 83.14,
+      "precision": 72.66,
+      "recall_pd": 46.43,
+      "f1_score": 56.07,
+      "pf_false_alarm": 5.47,
+      "auc_roc": 87.25
+    },
+    "Attention Pred.": {
+      "accuracy": 81.66,
+      "precision": 98.46,
+      "recall_pd": 23.18,
+      "f1_score": 36.4,
+      "pf_false_alarm": 0.22,
+      "auc_roc": 85.27
+    }
+  },
+  "metric_importance_attention": {
+    "WMC": 0.1117,
+    "DIT": 0.0829,
+    "NOC": 0.0725,
+    "CBO": 0.0931,
+    "RFC": 0.0851,
+    "LCOM": 0.0832,
+    "LOC": 0.1173,
+    "NPM": 0.1559,
+    "Cyclomatic": 0.1215,
+    "Halstead": 0.0767
+  }
+}
