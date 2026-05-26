@@ -1,0 +1,84 @@
+{
+  "experiment": {
+    "total_tests": 300,
+    "failed_tests": 81,
+    "faulty_endpoints": [
+      "payment_confirm",
+      "notify_email"
+    ],
+    "failure_rate_pct": 27.0
+  },
+  "scores": {
+    "tarantula": {
+      "notify_email": 0.9774,
+      "payment_confirm": 0.9665,
+      "user_create": 0.9571,
+      "payment_init": 0.953,
+      "auth_login": 0.7182,
+      "payment_status": 0.4213,
+      "auth_verify": 0.3828,
+      "notify_sms": 0.2845,
+      "user_update": 0.2378,
+      "user_get": 0.1802,
+      "auth_refresh": 0.1798,
+      "user_delete": 0.1686
+    },
+    "ochiai": {
+      "notify_email": 0.8623,
+      "user_create": 0.6028,
+      "payment_confirm": 0.601,
+      "payment_init": 0.5717,
+      "auth_login": 0.4446,
+      "auth_verify": 0.3394,
+      "payment_status": 0.1354,
+      "user_get": 0.0963,
+      "notify_sms": 0.089,
+      "user_update": 0.0875,
+      "auth_refresh": 0.0527,
+      "user_delete": 0.0508
+    },
+    "ml": {
+      "notify_email": 0.7391,
+      "user_create": 0.683,
+      "payment_confirm": 0.6511,
+      "payment_init": 0.6319,
+      "auth_login": 0.5359,
+      "auth_verify": 0.3308,
+      "payment_status": 0.2894,
+      "notify_sms": 0.1618,
+      "user_update": 0.1356,
+      "auth_refresh": 0.1251,
+      "user_get": 0.1144,
+      "user_delete": 0.101
+    }
+  },
+  "service_scores": {
+    "auth": 0.3306,
+    "user": 0.2585,
+    "payment": 0.5241,
+    "notification": 0.4505
+  },
+  "evaluation": {
+    "Tarantula": {
+      "rank_first_fault": 1,
+      "top1_acc": true,
+      "top3_acc": true,
+      "top5_acc": true,
+      "exam_score_pct": 8.33
+    },
+    "Ochiai": {
+      "rank_first_fault": 1,
+      "top1_acc": true,
+      "top3_acc": true,
+      "top5_acc": true,
+      "exam_score_pct": 8.33
+    },
+    "ML Enhanced": {
+      "rank_first_fault": 1,
+      "top1_acc": true,
+      "top3_acc": true,
+      "top5_acc": true,
+      "exam_score_pct": 8.33
+    }
+  }
+}
