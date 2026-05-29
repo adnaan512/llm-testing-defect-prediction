@@ -1,0 +1,9 @@
+# Core dependencies (Project 1)
+requests>=2.31.0
+
+# Test execution (Project 1)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-json-report>=1.5.0
+
+# Project 2 and Project 3 have no external dependencies (pure Python).
