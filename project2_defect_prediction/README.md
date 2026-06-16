@@ -161,3 +161,4 @@ project2_defect_prediction/
 - Menzies, T. et al. (2007). *Data mining static code attributes to learn defect predictors*. IEEE TSE.
 - Jureczko, M. & Madeyski, L. (2010). *Towards identifying software project clusters with regard to defect prediction*. PROMISE.
 - Chidamber, S.R. & Kemerer, C.F. (1994). *A metrics suite for object-oriented design*. IEEE TSE.
+
