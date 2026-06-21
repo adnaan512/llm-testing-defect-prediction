@@ -669,3 +669,4 @@ if __name__ == "__main__":
     args = _build_parser().parse_args()
     _configure_logging(args.verbose)
     main(n_tests=args.tests, faulty_endpoints=args.faulty, output_dir=args.output_dir)
+
